@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/panunu/sedux/master/cover.png"/>
+<img src="https://raw.githubusercontent.com/panunu/sedux/master/cover.png" style="float: right"/>
 
 # Sedux
 
@@ -6,9 +6,9 @@ A naive implementation of Redux (JavaScript library) in Scala.
 
 Just for fun. WIP.
 
-## Example
+## Usage
 
-ScalaJS.
+Example in ScalaJS.
 
 ```scala
 import com.panuleppaniemi.sedux.Store
