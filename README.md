@@ -1,6 +1,6 @@
-<img src="https://raw.githubusercontent.com/panunu/sedux/master/cover.png" style="float: right"/>
-
 # Sedux
+
+<img src="https://raw.githubusercontent.com/panunu/sedux/master/cover.png"/>
 
 A naive implementation of Redux (JavaScript library) in Scala.
 
