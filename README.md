@@ -36,13 +36,14 @@ def bank: Reducer = (state: Option[Any], action: Action) => {
   }
 }
 
+val $ = jQuery
 val store = new Store(Map("resource" -> resource, "bank" -> bank))
+
 store.subscribe((state: Map[String, Any]) => {
   $("#resources").html(state("resource").toString)
   $("#bank").html(state("bank").toString)
 })
 
-val $ = jQuery
 $("#transfer-competence").click((e: Event) => store.dispatch(Train()))
 $("#sell").click((e: Event) => store.dispatch(Sell(store.getState("resource").asInstanceOf[Int])))
 ```
